@@ -6,6 +6,7 @@ CASK_APPLICATIONS=(
     "docker"
     "iterm2"
     "keepingyouawake"
+    "parallels"
     "phpstorm"
     "sequel-pro"
     "spectacle"
@@ -14,6 +15,7 @@ CASK_APPLICATIONS=(
     "vagrant"
     "vmware-fusion"
     "vyprvpn"
+    "tower"
 )
 
 OPEN_APPLICATIONS=(
