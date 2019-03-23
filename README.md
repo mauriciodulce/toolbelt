@@ -49,6 +49,4 @@ Note: it will prompt for your password several times!
 - Wp Cli
 
 ## Tested on
-
-- OSX El Capitan 10.11.x
-- macOS Sierra 10.12.x
+- macOS Mojave 10.14.x
