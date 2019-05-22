@@ -127,7 +127,6 @@ installApplications () {
     # Install extras
     printSectionTitle "Install Vagrant plugins"
 
-    vagrant plugin install vagrant-vmware-fusion
     vagrant plugin install vagrant-hostsupdater
     vagrant plugin install vagrant-parallels
     git config --global user.name "Mauricio Dulce"
@@ -159,11 +158,11 @@ installPhpTools () {
 
     curl -O -L https://github.com/drush-ops/drush/releases/download/8.1.16/drush.phar
     chmod +x drush.phar
-    mv composer.phar /usr/local/bin/drush
+    mv drush.phar /usr/local/bin/drush
 
     curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
     chmod +x wp-cli.phar
-    mv composer.phar /usr/local/bin/wp
+    mv wp-cli.phar /usr/local/bin/wp
 
 
     vagrant box add laravel/homestead
