@@ -1,6 +1,24 @@
 #!/bin/bash
 
 CASK_APPLICATIONS=(
+    "1password-cli"
+    "1password"
+    "alfred"
+    "appcleaner"
+    "atom"
+    "backblaze"
+    "box-sync"
+    "charles"
+    "coda"
+    "craftmanager"
+    "dropbox"
+    "firefox"
+    "google-chrome"
+    "google-drive-file-stream"
+    "iterm2"
+    "keepingyouawake"
+    "local-by-flywheel"
+    "marvel"
     "omnigraffle"
     "omnioutliner"
     "omniplan"
@@ -10,8 +28,10 @@ CASK_APPLICATIONS=(
     "sequel-pro"
     "spectacle"
     "sketch"
+    "slack"
     "skype"
     "spotify"
+    "sublime-merge"
     "sublime-text"
     "teamviewer"
     "tower"
@@ -20,7 +40,7 @@ CASK_APPLICATIONS=(
     "vagrant"
     "visual-studio-code"
     "webstorm"
-    "zoom"
+    "whatsApp"
 )
 
 OPEN_APPLICATIONS=(
