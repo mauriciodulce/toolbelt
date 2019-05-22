@@ -17,7 +17,6 @@ CASK_APPLICATIONS=(
     "google-drive-file-stream"
     "iterm2"
     "keepingyouawake"
-    "local-by-flywheel"
     "marvel"
     "omnigraffle"
     "omnioutliner"
