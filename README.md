@@ -11,7 +11,7 @@
 ```
 
 
-The basic productivity tools for OSX which every Druid developer needs.
+The basic productivity tools for OSX which every developer needs.
 
 ## Requirements
 
@@ -37,13 +37,11 @@ Note: it will prompt for your password several times!
 - [Sequel Pro](http://www.sequelpro.com/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Spectacle](https://www.spectacleapp.com/)
-- [Vagrant](https://www.vagrantup.com/)
-- [VMware Fusion](https://www.vmware.com/products/fusion) (You need to add license)
-- [VyprVPN](https://www.goldenfrog.com/vyprvpn)
+
 
 ## PHP software
 
-- PHP 7.2
+- PHP 7.3
 - Composer
 - Drush
 - Wp Cli
