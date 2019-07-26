@@ -1,11 +1,6 @@
 #!/bin/bash
 
 CASK_APPLICATIONS=(
-    "1password-cli"
-    "1password"
-    "alfred"
-    "appcleaner"
-    "atom"
     "backblaze"
     "box-sync"
     "charles"
@@ -21,8 +16,6 @@ CASK_APPLICATIONS=(
     "omnigraffle"
     "omnioutliner"
     "omniplan"
-    "omnipresence"
-    "parallels"
     "phpstorm"
     "sequel-pro"
     "spectacle"
@@ -32,11 +25,7 @@ CASK_APPLICATIONS=(
     "spotify"
     "sublime-merge"
     "sublime-text"
-    "teamviewer"
-    "tower"
-    "transmit-disk"
     "transmit"
-    "vagrant"
     "visual-studio-code"
     "webstorm"
     "whatsApp"
@@ -71,7 +60,7 @@ main () {
     installHomebrew
 
     # Brew some software
-    brew install ansible ruby php
+    brew install ansible
 
     # Install gems
     gem install pygmy
@@ -123,11 +112,7 @@ installApplications () {
     cmd="brew cask install ${CASK_APPLICATIONS[*]}"
     $cmd
 
-    # Install extras
-    printSectionTitle "Install Vagrant plugins"
 
-    vagrant plugin install vagrant-hostsupdater
-    vagrant plugin install vagrant-parallels
     git config --global user.name "Mauricio Dulce"
     git config --global user.email "hola@mauriciodulce.com"
 }
@@ -163,10 +148,6 @@ installPhpTools () {
     chmod +x wp-cli.phar
     mv wp-cli.phar /usr/local/bin/wp
 
-
-    vagrant box add laravel/homestead
-
-    git clone https://github.com/laravel/homestead.git ~/.Homestead
 
 }
 
