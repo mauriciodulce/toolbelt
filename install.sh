@@ -1,34 +1,21 @@
 #!/bin/bash
 
 CASK_APPLICATIONS=(
-    "backblaze"
-    "box-sync"
-    "charles"
-    "coda"
-    "craftmanager"
     "dropbox"
     "firefox"
-    "google-chrome"
-    "google-drive-file-stream"
     "iterm2"
+    "lando"
     "keepingyouawake"
-    "marvel"
-    "omnigraffle"
-    "omnioutliner"
-    "omniplan"
-    "phpstorm"
     "sequel-pro"
     "spectacle"
     "sketch"
     "slack"
-    "skype"
     "spotify"
     "sublime-merge"
     "sublime-text"
     "transmit"
     "visual-studio-code"
     "webstorm"
-    "whatsApp"
 )
 
 OPEN_APPLICATIONS=(
@@ -37,8 +24,6 @@ OPEN_APPLICATIONS=(
     "PhpStorm"
     "Sequel Pro"
     "Spectacle"
-    #"Sublime Text 2"
-    "VMware Fusion"
 )
 
 main () {
@@ -147,6 +132,8 @@ installPhpTools () {
     curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
     chmod +x wp-cli.phar
     mv wp-cli.phar /usr/local/bin/wp
+    
+    curl -sS https://platform.sh/cli/installer | php
 
 
 }
